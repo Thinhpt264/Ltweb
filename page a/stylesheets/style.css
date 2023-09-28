@@ -1,0 +1,151 @@
+
+ .container .header{
+     display: grid;
+     grid-template-columns: auto auto;
+}
+.container .header .alpha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .header .omega {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+}
+.container .header .omega  a{
+    margin-right: 10px;
+}
+.container .header .omega .htext_style {
+    margin-right: 2rem;
+    color: lightgrey;
+}
+.container .content-1 {
+    background-color: #333232;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 20px;
+}
+.container .content-1 .pix_container {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    text-align: right;
+}
+.container .content-1 .omega {
+    padding: 10px;
+    padding-left: 20px;
+}
+.big_text {
+    font-weight: bold;
+    color: #2faacd;
+    font-size: 110%;
+}
+.big_title {
+    font-size: 500%;
+    color: white;
+    margin: 0;
+}
+.container .content-1 .omega a {
+    text-decoration: none;
+    color: white;
+}
+.container .content-1 .omega a .btn_live {
+    padding: 7px;
+    background-color: #2dc0e8;
+    border-bottom: 2px solid #2a6d7f;
+
+}
+.envato_unbounce .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #efefee;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.envato_unbounce .container .L1_style {
+    width: 100%;
+    grid-column: span 2;
+}
+.envato_unbounce .container .L2_style {
+    width: 100%;
+    grid-column: span 2;
+}
+.envato_unbounce .container .alpha{
+    background-color: #efefee;
+    display: flex;
+    justify-content: right;
+    margin: 10px;
+}
+.envato_unbounce .container .stbox .pix_builder_bg {
+    padding: 0;
+    width: 500px;
+    display: flex;
+    border-radius:10px ;
+    border-bottom: #dddddd solid 5px;
+}
+.envato_unbounce .container .stbox .pix_builder_bg .b_style {
+    width: 15%;    
+    height: 100px;
+    display: flex;
+    background-color: #f5f4f4;
+    align-items: center;
+    padding: 10px;
+}
+.envato_unbounce .container .stbox .pix_builder_bg .txt_style {
+    padding: 0px 5px 0px 5px;
+}
+.envato_unbounce .container .stbox .pix_builder_bg .txt_style .stars_span {
+    display: flex;
+}
+.logo_style {
+    border-radius: 50%;
+}
+.pix_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pix_builder_bg {
+    padding: 10px;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    background-color: white;
+}
+.pixfort_agency_14 .pix_builder_bg .container .sixteen {
+    padding: 20px;
+    display: grid;
+    grid-template-rows: repeat(6 , 1fr);
+    row-gap: 1rem;
+    justify-content: center;
+}
+.pixfort_agency_14 .pix_builder_bg .container .sixteen .f1_style {
+    font-size: 200%;
+    color: #6da478;
+}
+.pixfort_agency_14 .pix_builder_bg .container .sixteen .f2_style {
+    font-size: 110%;
+    color: #bfbfbe;
+}
+.pixfort_agency_14 .pix_builder_bg .container .sixteen .second_link {
+    display: flex;
+    justify-content: center;
+}
+
+.get_2_btn {
+    display: inline-block;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #6da478;
+}
+.clearfix{
+    clear: both;
+}
+.get_2_btn a {
+    font-size: 150%;
+    text-decoration: none;
+    font-weight: bold;
+    color: #6da478;
+}

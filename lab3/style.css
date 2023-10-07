@@ -1,0 +1,48 @@
+body{
+    margin: 0  ;
+    padding: 0;
+}
+#container #menu{
+    height: 80px;
+    width: 800px;
+    background-color: #eeeeee;
+    margin: auto;
+    border-left: solid 7px #8b0000;
+    border-bottom: solid 2px #8b0000;
+}
+#menu .item{
+    float: left;
+    padding: 31px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+#menu .item:hover{
+    background-color: #8b0000;
+    color: white;
+}
+
+#menu .menu-mini{
+    display: none;
+    position: absolute;
+    background-color: #eeeeee;
+    margin: 49px 0px 10px -31px;
+    margin: 49px 0px 10px -31px;
+    border-top: solid #8b0000;
+}
+#menu .menu-mini a{
+    color: black;
+    width: 170px;
+    display: block;
+    padding: 20px;
+    border-bottom: solid #bebebe;
+}
+#menu .main{
+    margin: -31px;
+}
+#menu .item:hover .menu-mini{
+    display: block;
+}
+#menu .menu-mini a:hover{
+    background-color: #bbbbbb;
+}

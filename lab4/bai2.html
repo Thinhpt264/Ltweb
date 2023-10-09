@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        a =
+        <input type="number" id="a" > <br>
+        b = 
+        <input type="number" id="b"> <br> 
+        c =
+        <input type="number" id="c" >
+        <br>
+        
+        <button onclick="calculate()"> tính </button>
+        <h2 id="result" style="color: black;"></h2>
+    </div>
+    <script>
+      function calculate() {
+       var  c =  parseFloat(document.getElementById("c").value) ;
+       var a =  parseFloat(document.getElementById("a").value)  ;
+       var b =  parseFloat(document.getElementById("b").value)  ;
+        if(a == "" ) { alert ("nhập a");}
+        if(b == "" ) {alert ("nhập b");}
+        if(c == "" ) {alert ("nhập c");}
+        var  d = b*b - (4*a*c);
+        if(d>0) { 
+          var x1 = (-b + Math.sqrt(d)) /(2*a) ;
+          var x2 = (-b - Math.sqrt(d))/(2*a) 
+           document.getElementById("result").innerHTML = "phương trình có nghiệm là: ";
+           document.getElementById("result").innerHTML += "x1= "+ x1 + "<br>";
+           document.getElementById("result").innerHTML += " x2 là:" + x2 ;
+       } else if(d === 0){
+            var x = -b /(2*a);
+            document.getElementById("result").innerHTML = "phương trình có nghiệm kép x  là:" + x;
+       } else{
+            document.getElementById("result").innerHTML = "vô nghiệm";
+       }
+       }
+    </script>
+</body>
+</html>

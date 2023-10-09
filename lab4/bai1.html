@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container {
+            width: 100%;
+            height: 1000px;
+            display: flex;
+        }
+        button {
+            width: 100px;
+            height: 50px;
+            margin: 10px;
+            cursor: pointer;
+        }
+        #yellow {
+            background-color: yellow;
+        }
+        #green {
+            background-color: green;
+        }
+        #gray {
+            background-color: gray;
+        }
+        #black {
+            background-color: black;
+            color: white;
+        }
+        #white {
+            background-color: white;
+        }
+        #red {
+            background-color: red;
+        }
+        #blue {
+            background-color: blue;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="container">
+        <!-- <input type="button" value="red" id="btn" onclick="changeBackgroundColor()"> -->
+        <button type="button" onclick="changeBackgroundColor(this.value)" value="red" class="btn" id="red"></button>
+        <button type="button" onclick="changeBackgroundColor(this.value)" value="blue" id="blue"></button>
+        <button type="button" onclick="changeBackgroundColor(this.value)" value="yellow" id="yellow"></button>
+        <button type="button" onclick="changeBackgroundColor(this.value)" value="green" id="green"></button>
+        <button type="button" onclick="changeBackgroundColor(this.value)" value="gray" id="gray"></button>
+        <button type="button" onclick="changeBackgroundColor(this.value)" value="black" id="black"></button>
+        <button type="button" onclick="changeBackgroundColor(this.value)" value="white" id="white"></button>
+    </div>
+    <script src="bai1.js"></script>
+   
+</body>
+</html>

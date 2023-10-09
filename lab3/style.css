@@ -301,7 +301,6 @@ select:focus-visible {
     border: none;
     background-color: white;
     font-size: 110%;
-
 }
 #login-form .container .btn-signup button:hover{
     color: #687459;

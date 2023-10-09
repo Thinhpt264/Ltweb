@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #LoiChao {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="LoiChao"></h1>
+    <script>
+         window.addEventListener('DOMContentLoaded', function() {
+            var greetings = [
+                'Chào bạn!',
+                'Xin chào!',
+                'Hello!',
+                'hé lô',
+                'Hola!',
+                'hi!',
+            ];
+            
+            var randomIndex = Math.floor(Math.random() * greetings.length);
+            var randomGreeting = greetings[randomIndex];
+            
+            var greetingElement = document.getElementById('LoiChao');
+            greetingElement.innerHTML = randomGreeting;
+        });
+    </script>
+</body>
+
+</html>
